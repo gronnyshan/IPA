@@ -1,0 +1,23 @@
+/* Header fixieren */
+.div-header {
+  
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  
+  }
+
+html,
+body {
+  
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../img/login-img.jpeg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  
+}
